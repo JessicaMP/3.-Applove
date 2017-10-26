@@ -79,6 +79,7 @@ header {
     position: fixed;
     padding-left: 150px;
     top: 0;
+    z-index: 1000;
 }
 .header {
   margin-top: 30px;
@@ -87,6 +88,10 @@ header {
 header a {
   padding: 20px;
 }
+
+/*header a:hover {
+  color: red;
+}*/
 
 header img{
   width: 80px;
@@ -113,6 +118,7 @@ header img{
   background-repeat: no-repeat;
   display: inline-block;
   position: relative;
+  background-size: 100%;
 }
 
 .first-block h2 {
